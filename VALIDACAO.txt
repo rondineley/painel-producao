@@ -1,0 +1,9 @@
+Validação do pacote
+- TypeScript: passou
+- Wrangler deploy --dry-run: passou (nenhuma publicação efetuada)
+- Migrações aplicadas em banco isolado: passou
+- APIs de produção, eficiência, imagens e contador: passaram
+- Banco SQLite inicial: estrutura criada e verificada
+- Conta Cloudflare do usuário: não conectada; criação real de D1/R2 e deploy serão feitos pelo usuário seguindo LEIA-ME.md
+- Dados e imagens antigos: não incluídos; banco inicial vazio
+- Fonte: f581e4441a2ae4d244ada76b9c33eea1e3fedb51
